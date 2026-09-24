@@ -1,0 +1,6 @@
+{
+  "name": "Diabetic Retinopathy Grader",
+  "description": "An AI-powered medical web application for grading Diabetic Retinopathy from retinal fundus images using CNN and ResNet50 Transfer Learning, featuring Grad-CAM visualization, PDF reports, and clinical statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
