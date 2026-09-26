@@ -1,0 +1,4 @@
+[project]
+name = "diabetic-retinopathy-grader"
+version = "1.0.0"
+requires-python = "~=3.12.0"
