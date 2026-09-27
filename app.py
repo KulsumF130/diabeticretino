@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, flash, send_from_directory, jsonify, send_file
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from config import Config
-from database.models import db, User, Prediction
+from models import db, User, Prediction
 from predict import predict_dr_grade, CLASS_NAMES, CLINICAL_RECOMMENDATIONS
 from gradcam import get_gradcam_heatmap, save_and_display_gradcam, simulate_gradcam_overlay
 from utils import allowed_file, hash_password, verify_password, generate_pdf_report
