@@ -1,7 +1,7 @@
 import os
 import time
 from datetime import datetime
-from flask import Flask, render_code_template, render_template, request, redirect, url_for, flash, send_from_directory, jsonify, send_file
+from flask import Flask, render_template, request, redirect, url_for, flash, send_from_directory, jsonify, send_file
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from config import Config
 from database.models import db, User, Prediction
